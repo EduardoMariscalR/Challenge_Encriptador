@@ -1,0 +1,227 @@
+*{
+    background:#F3F5FC;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 6.5vw;
+    
+    position: absolute;
+    height: 10vh;
+    width: 60vw;
+    left: 4vw;
+    top: 4vh;
+
+}
+
+.logo {
+    width: 2.3vw;
+    height: 4.8vh;
+    
+    flex:none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.bienvenida{
+    font-size: 4.5vh;
+    width: 50vw;
+    line-height: 100%;
+    overflow-y: visible;  
+    color: #0A3871;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.text-area {
+    position: absolute;
+    width: 50vw;
+    height: 65vh;
+    left: 12.5vw;
+    top: 16.8vh;
+    font-size: 4.5vh;
+    line-height: 100%;
+    color: #0A3871;
+    text-transform: lowercase;
+    resize: none;
+    overflow-y: visible;  
+}
+::placeholder {
+    opacity: 0.8; 
+    color: #0A3871; 
+}
+
+.frame1{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+
+    position: absolute;
+    height: 2vh;
+    left: 12.5vw;
+    top: 84.5vh;
+}
+
+.frame1 img{
+    width: 2vh;
+    height: 2vh;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.informacion {
+    line-height: 100%;
+    font-size: 2vh;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    gap: 1.25vw;
+
+    position: absolute;
+    height: 6.7vh;
+    left: 12.5vw;
+    top: 88vh;
+}
+
+.btn-encriptar {
+    width: 17.7vw;
+    height: 6.7vh;
+    font-size: 2.25vh;
+    text-align: center;
+    background: #0A3871;
+    border-radius: 2.4vh;
+    border-color: transparent;
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.btn-desencriptar {
+    width: 17.7vw;
+    height: 6.7vh;
+    font-size: 2.25vh;
+    text-align: center;
+    background: #D8DFE8;
+    border: 0.1vh solid #0A3871;
+    border-radius: 2.4vh;
+    color: #0A3871;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.rectangulo{
+
+    position: absolute;
+    left: 69vw;
+    top: 3vh;
+    width: 28vw;
+    height: 94vh;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 2.4vh;
+    color: #0A3871;
+}
+
+.mensaje{
+    position: absolute;
+    left: 1.5vw;
+    top: 3vh;
+    right: 1.5vw;
+    bottom: 12vh;
+    background:transparent;
+    background-image: url("Muneco.png");
+    background-repeat: no-repeat;
+    background-position: 49% 13%;
+    background-size: 90%;
+    border: none;
+    color: #0A3871;
+    resize: none;
+    font-size: 4.5vh;
+    line-height: 100%;
+
+}
+.mensaje:focus {
+    outline: none;
+}
+
+.frame2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7vw;
+
+    position: absolute;
+    background: none;
+    width: 18vw; 
+    left: 75vw;
+    top: 55vh;
+
+}
+
+.text1{
+
+    font-weight: 700;
+    font-size: 3vh;
+    line-height: 120%;
+    text-align: center;
+    background: none;
+    color:#343A40;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.text2{
+
+    font-size: 2vh;
+    text-align: center;
+    background: none;
+    color:#495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.copiar {
+    position: absolute;    
+    width: 17.7vw;    
+    height: 6.7vh;
+    left: 75vw;
+    top: 88vh;
+    font-size: 2.25vh;        
+    border: 0.1vh solid #0A3871;
+    border-radius: 2.4vh;
+    color: #0A3871;
+    cursor: pointer;
+}
