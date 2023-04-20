@@ -1,7 +1,6 @@
 # Challenge Encriptador
 Challenge#1 -Grupo 4 del Programa Oracle ONE. Consiste en un encriptador de Texto 
 
-#challengeonecodificador4
 
 <h3>Hola, te doy la bienvenida a este repositorio <br> Aqui muestro el challenge asignado al Programa Oracle ONE.</h3>
 
