@@ -155,7 +155,7 @@ header {
     right: 1.5vw;
     bottom: 12vh;
     background:transparent;
-    background-image: url("imagenes/Muneco.png");
+    background-image: url("./imagenes/Muneco.png");
     background-repeat: no-repeat;
     background-position: 49% 13%;
     background-size: 90%;
